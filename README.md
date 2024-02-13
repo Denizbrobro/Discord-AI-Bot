@@ -31,4 +31,5 @@ To better understand and use the project, you can visit the [GitHub Repository](
 To obtain your OpenAI API key, first, you need to go here on the OpenAI platform and create a new API key. During the creation process, they might ask for your !
 phone number; this is a standard procedure. Once you've completed this process, replace your API key in its designated place.
 
-![carbon](https://github.com/Denizbrobro/Discord-AI-Bot/assets/140730727/0eb72e1c-48c2-474b-8ae6-a9cb8e882467)
+
+![carbon (1)](https://github.com/Denizbrobro/Discord-AI-Bot/assets/140730727/2a363302-b858-451a-b71a-c8fcabf69886)
