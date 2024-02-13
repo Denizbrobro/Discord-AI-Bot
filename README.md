@@ -31,3 +31,5 @@ To better understand and use the project, you can visit the [GitHub Repository](
 
 ![importcodes ](https://github.com/Denizbrobro/Discord-AI-Bot/assets/140730727/c98c653b-385d-4d11-9a98-08b47d88a9c2)
 
+# FAQ
+To obtain your OpenAI API key, first, you need to go here on the OpenAI platform and create a new API key. During the creation process, they might ask for your phone number; this is a standard procedure. Once you've completed this process, replace your API key in its designated place.
