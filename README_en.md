@@ -20,13 +20,13 @@ pip install openai==0.28
 
 
 
-## Kullanım
-Projeyi kullanmak için bazı talimatları buraya ekleyebilirsiniz.
+# Usage
+You can add instructions here on how to use the project.
 
-## Lisans
-Bu proje [MIT lisansı](https://choosealisence.com/licenses/mit/) altında lisanslanmıştır.
+## License
+This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
 
-## Ek Bilgiler
-Projeyi daha iyi anlamak ve kullanmak için GitHub Repository adresini ziyaret edebilirsiniz.
+## Additional Information
+To better understand and use the project, you can visit the [GitHub Repository](https://github.com/Denizbrobro/Discord-AI-Bot).
 
 ![importcodes (1)](https://github.com/Denizbrobro/Discord-AI-Bot/assets/140730727/800e4526-4058-44cf-91bc-04f25e4433b8)
