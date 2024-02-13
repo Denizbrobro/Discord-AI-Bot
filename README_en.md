@@ -24,10 +24,7 @@ pip install openai==0.28
 Projeyi kullanmak için bazı talimatları buraya ekleyebilirsiniz.
 
 ## Lisans
-Bu proje MIT lisansı altında lisanslanmıştır.
+Bu proje [MIT](https://choosealisence.com/licenses/mit/) altında lisanslanmıştır.
 
 ## Ek Bilgiler
 Projeyi daha iyi anlamak ve kullanmak için GitHub Repository adresini ziyaret edebilirsiniz.
-
-## licence
-[MIT](https://choosealisence.com/licenses/mit/)
