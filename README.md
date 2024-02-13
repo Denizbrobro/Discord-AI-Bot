@@ -29,4 +29,5 @@ This project is licensed under the [MIT License](https://choosealicense.com/lice
 ## Additional Information
 To better understand and use the project, you can visit the [GitHub Repository](https://github.com/Denizbrobro/Discord-AI-Bot).
 
-![importcodes (1)](https://github.com/Denizbrobro/Discord-AI-Bot/assets/140730727/800e4526-4058-44cf-91bc-04f25e4433b8)
+![importcodes ](https://github.com/Denizbrobro/Discord-AI-Bot/assets/140730727/c98c653b-385d-4d11-9a98-08b47d88a9c2)
+
