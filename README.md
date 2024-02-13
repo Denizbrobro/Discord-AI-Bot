@@ -1,8 +1,12 @@
 # Discord-AI-Bot
 Maked By Denizbrobro Used PYTHON
 
-##Installtion
-31
+## Installtion
+
+Use the package manager pip
+
 ```bash
-Open the terminal and pip install openai then pip install discord then pip install openai==0.28 download these libraries.
+pip install openai
+pip install discord
+pip install openai==0.28
 ```
