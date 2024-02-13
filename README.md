@@ -1,5 +1,6 @@
 # Discord-AI-Bot
-Maked By Denizbrobro Used PYTHON
+Using python
+maked by Denizbrobro
 
 ## Installtion
 
