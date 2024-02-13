@@ -10,7 +10,7 @@ Use the `pip` package manager and execute the following commands:
 pip install openai
 pip install discord
 pip install openai==0.28
-
+```
 
 ![importcodes ](https://github.com/Denizbrobro/Discord-AI-Bot/assets/140730727/c98c653b-385d-4d11-9a98-08b47d88a9c2)
 
