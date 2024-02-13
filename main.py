@@ -2,7 +2,7 @@ import discord
 import pyfiglet
 from discord.ext import commands
 import openai
-from config import openapikey, MCTOKEN
+from config import *
 
 # OpenAI API Key
 openai.api_key = openapikey
@@ -29,6 +29,11 @@ async def on_message(message):
     if message.author == bot.user:
         return  # Mesaj bot tarafından gönderildiyse, işlem yapma
 
+    # Sadece belirli bir metin kanalında mesajları işle
+    targetchannelid = canseeid  # Hedef metin kanalının ID'sini buraya ekleyin
+    if message.channel.id != targetchannelid:
+        return
+
     question = message.content
     
     try:
@@ -49,6 +54,7 @@ async def on_message(message):
 
     except openai.error.OpenAIError as e:
         await message.channel.send(f'Hata: {e.message}')
+
 
 # Discord botunu çalıştır
 bot.run(MCTOKEN)
