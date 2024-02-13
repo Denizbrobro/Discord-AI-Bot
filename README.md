@@ -21,7 +21,7 @@ pip install openai==0.28
 
 
 # Usage
-You can add instructions here on how to use the project.
+This bot is capable of detecting messages sent to a designated text channel and responding to them.
 
 ## License
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
