@@ -1,18 +1,14 @@
 # Discord-AI-Bot
-Using python
-maked by Denizbrobro
+Python kullanılarak oluşturuldu.
+Tarafından: Denizbrobro
 
-## Installtion
+## Kurulum
 
-Use the package manager pip
+`pip` paket yöneticisini kullanarak aşağıdaki komutları kullanın:
 
 ```bash
 pip install openai
-```
-```bash
 pip install discord
-```
-```bash
 pip install openai==0.28
 ```
 
