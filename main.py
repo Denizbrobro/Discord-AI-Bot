@@ -9,8 +9,6 @@ openai.api_key = openapikey
 
 DBBS_text = pyfiglet.figlet_format(text="Denizbrobro ------------ STUDIOS")
 
-
-
 intents = discord.Intents.all()
 intents.message_content = True
 intents.members = True
@@ -27,17 +25,16 @@ async def on_ready():
 @bot.event
 async def on_message(message):
     if message.author == bot.user:
-        return  # Mesaj bot tarafından gönderildiyse, işlem yapma
+        return  # If the message is sent by the bot, do not process
 
-    # Sadece belirli bir metin kanalında mesajları işle
-    targetchannelid = canseeid  # Hedef metin kanalının ID'sini buraya ekleyin
-    if message.channel.id != targetchannelid:
+    # Only process messages in a specific text channel
+    if message.channel.id != canseeid:
         return
 
     question = message.content
     
     try:
-        # GPT-3.5-turbo-0125 modelini kullanarak bir yanıt oluştur
+        # Generate a response using the GPT-3.5-turbo-0125 model
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo-0125",
             messages=[
@@ -46,15 +43,14 @@ async def on_message(message):
             ]
         )
 
-        # Yanıtı al
+        # Get the response
         answer = response['choices'][0]['message']['content'].strip()
 
-        # Cevabı Discord'a gönder
+        # Send the answer to Discord
         await message.channel.send(answer)
 
     except openai.error.OpenAIError as e:
-        await message.channel.send(f'Hata: {e.message}')
+        await message.channel.send(f'Error: {e.message}')
 
-
-# Discord botunu çalıştır
-bot.run(MCTOKEN)
+# Run the Discord bot
+bot.run(TOKEN)
