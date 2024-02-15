@@ -9,6 +9,7 @@ from discord.interactions import Interaction
 openai.api_key = openapikey
 
 DBBS_text = pyfiglet.figlet_format(text="Denizbrobro ------------ STUDIOS")
+print(DBBS_text)
 
 intents = discord.Intents.all()
 intents.message_content = True
