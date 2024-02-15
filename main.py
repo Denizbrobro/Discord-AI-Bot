@@ -22,17 +22,10 @@ async def on_ready():
     print(DBBS_text)
     await bot.change_presence(activity=discord.Game(name="Has Brain🧠"))
 
-@bot.event
-async def on_message(message):
-    if message.author == bot.user:
-        return  # If the message is sent by the bot, do not process
+@bot.command(name='ask')
+async def ask(ctx, *args):
+    question = ' '.join(args)
 
-    # Only process messages in a specific text channel
-    if message.channel.id != canseeid:
-        return
-
-    question = message.content
-    
     try:
         # Generate a response using the GPT-3.5-turbo-0125 model
         response = openai.ChatCompletion.create(
@@ -47,10 +40,14 @@ async def on_message(message):
         answer = response['choices'][0]['message']['content'].strip()
 
         # Send the answer to Discord
-        await message.channel.send(answer)
+        await ctx.send(answer)
+
+    except openai.error.InvalidRequestError as e:
+        # Access the error message using the __str__ method
+        await ctx.send(f'Error: {e}')
 
     except openai.error.OpenAIError as e:
-        await message.channel.send(f'Error: {e.message}')
+        await ctx.send(f'Error: {e}')
 
 # Run the Discord bot
 bot.run(TOKEN)
