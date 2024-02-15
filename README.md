@@ -12,7 +12,8 @@ pip install discord
 pip install openai==0.28
 ```
 
-![importcodes ](https://github.com/Denizbrobro/Discord-AI-Bot/assets/140730727/c98c653b-385d-4d11-9a98-08b47d88a9c2)
+
+![carbon](https://github.com/Denizbrobro/Discord-AI-Bot/assets/140730727/3d7060ec-3ea1-4d06-8584-6466f02be03d)
 
 
 
